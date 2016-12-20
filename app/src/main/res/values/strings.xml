@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RedArrow</string>
+    <string name="title_activity_donor_location_search">Map</string>
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="radius">
+        <item>Radius</item>
+        <item>5 KM</item>
+        <item>10 KM</item>
+        <item>15 KM</item>
+        <item>20 KM</item>
+        <item>25 KM</item>
+        <item>30 KM</item>
+        <item>35 KM</item>
+        <item>40 KM</item>
+        <item>45 KM</item>
+        <item>50 KM</item>
+        <item>55 KM</item>
+        <item>60 KM</item>
+        <item>65 KM</item>
+        <item>70 KM</item>
+        <item>75 KM</item>
+        <item>80 KM</item>
+        <item>85 KM</item>
+        <item>90 KM</item>
+        <item>95 KM</item>
+        <item>100 KM</item>
+    </string-array>
+    <string name="title_activity_donor_location_set">Map</string>
+    <string name="title_activity_hospital_location_set">Map</string>
+    <string name="title_activity_hospital_profile2">HospitalProfile2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

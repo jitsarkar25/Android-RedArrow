@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/finddonornav"
+            android:icon="@drawable/finddonoricon"
+            android:title="Find Donor" />
+        <item
+            android:id="@+id/notificationsnav"
+            android:icon="@drawable/notificationicon"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/reviewnav"
+            android:icon="@drawable/reviewicon"
+            android:title="Donor Review" />
+        <item
+            android:id="@+id/donationhistorynav"
+            android:icon="@drawable/donationhistoryicon"
+            android:title="Donation History" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Link" />
+            <item
+                android:id="@+id/logoutnav"
+                android:icon="@drawable/logouticon"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
