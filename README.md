@@ -3,3 +3,5 @@ This is an android application to help facilitate the process of blood donation,
 
 
 Social Logins are available
+
+Language Support for English, Hindi and Bengali
