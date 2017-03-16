@@ -7,25 +7,22 @@
             android:icon="@drawable/finddonoricon"
             android:title="Find Donor" />
         <item
-            android:id="@+id/notificationsnav"
+            android:id="@+id/menusentappointments"
             android:icon="@drawable/notificationicon"
-            android:title="Notifications" />
+            android:title="Sent Appointments" />
         <item
-            android:id="@+id/reviewnav"
+            android:id="@+id/menuacceptedappointmnets"
             android:icon="@drawable/reviewicon"
-            android:title="Donor Review" />
+            android:title="Accepted Appointments" />
         <item
-            android:id="@+id/donationhistorynav"
+            android:id="@+id/menuapprovedappointments"
             android:icon="@drawable/donationhistoryicon"
-            android:title="Donation History" />
+            android:title="Approved Appointments" />
     </group>
 
     <item android:title="Extras">
         <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share Link" />
+
             <item
                 android:id="@+id/logoutnav"
                 android:icon="@drawable/logouticon"

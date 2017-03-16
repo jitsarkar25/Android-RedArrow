@@ -1,12 +1,19 @@
 package redarrow.dotapk.jit.redarrow;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.view.WindowManager;
+import android.widget.AbsoluteLayout;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -28,34 +35,51 @@ import com.google.maps.android.SphericalUtil;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DonorLocationSearch extends FragmentActivity implements OnMapReadyCallback {
+public class DonorLocationSearch extends FragmentActivity implements OnMapReadyCallback,GoogleMap.OnMarkerClickListener {
 
     private GoogleMap mMap;
     HashMap <String,ArrayList<Donor>> bloodmap;
     Hospital hospital;
     Button search;
     Spinner bloodtypeselect,radiusselect;
+
     String selectblood,selectradius;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donor_location_search);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+        final SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         bloodtypeselect=(Spinner)findViewById(R.id.spBloodType);
         radiusselect=(Spinner)findViewById(R.id.spRadius);
         search=(Button)findViewById(R.id.bSearch);
+
+
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.blood_type, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         bloodtypeselect.setAdapter(adapter);
-        final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayoutMapTop);
+
         ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this,
                 R.array.radius, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         radiusselect.setAdapter(adapter1);
+
+        SharedPreferences sharedPreferences=getSharedPreferences("RedArrow_data", Context.MODE_PRIVATE);
+        String defbldname=sharedPreferences.getString("defbloodname", "aaassa");
+        if(!defbldname.equals("aaassa"))
+        {
+            bloodtypeselect.setSelection(sharedPreferences.getInt("defbloodpos",0)+1);
+            radiusselect.setSelection(sharedPreferences.getInt("defradiuspos",0)+1);
+
+        }
+        SharedPreferences preferences = getSharedPreferences("RedArrow_data", Context.MODE_PRIVATE);
+        int langno=preferences.getInt("langno", 0);
+        search.setText(MainActivity.hashMap.get("search").get(langno));
+
+
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,7 +119,20 @@ public class DonorLocationSearch extends FragmentActivity implements OnMapReadyC
                                     Log.d("Distance", "hospital and " + bloodmap.get(selectblood).get(i).getName() + " is " + d);
                                     if(d<=allowedDist) {
                                         builder.include(latLng);
-                                        mMap.addMarker(new MarkerOptions().position(latLng).title(bloodmap.get(selectblood).get(i).getName()));
+                                        final int j=i;
+                                        Marker marker;
+                                        marker=mMap.addMarker(new MarkerOptions().position(latLng).title(String.valueOf(i)));
+                                       mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                                           @Override
+                                           public boolean onMarkerClick(Marker marker) {
+                                               Intent intent=new Intent(getApplicationContext(),DonorDetailsActivity.class);
+                                               int no=Integer.parseInt(marker.getTitle());
+                                               intent.putExtra("donorObj", bloodmap.get(selectblood).get(no));
+                                               startActivity(intent);
+
+                                               return false;
+                                           }
+                                       });
 
                                     }
                                     // mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
@@ -117,7 +154,9 @@ public class DonorLocationSearch extends FragmentActivity implements OnMapReadyC
             }
         });
 
-
+        WindowManager.LayoutParams params = getWindow().getAttributes();
+        params.height = AbsoluteLayout.LayoutParams.FILL_PARENT;
+        getWindow().setAttributes((android.view.WindowManager.LayoutParams) params);
 
 
     }
@@ -145,5 +184,10 @@ public class DonorLocationSearch extends FragmentActivity implements OnMapReadyC
         /*LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));*/
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+        return false;
     }
 }

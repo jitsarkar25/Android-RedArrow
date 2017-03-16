@@ -59,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_margin="15dp"
+            android:id="@+id/ivFindDonor"
             android:onClick="finddonorhos"
             android:adjustViewBounds="true"
             android:layout_marginLeft="25dp"
@@ -69,8 +70,10 @@
                 android:layout_weight="50"
                 android:layout_gravity="bottom"
                 android:layout_margin="15dp"
+                android:id="@+id/ivNotification"
                 android:adjustViewBounds="true"
                 android:layout_marginRight="25dp"
+                android:onClick="sentappointments"
                 android:layout_height="wrap_content"
                 android:src="@drawable/notification"
                 />
@@ -89,8 +92,10 @@
                 android:layout_weight="50"
                 android:layout_margin="15dp"
                 android:adjustViewBounds="true"
+                android:id="@+id/ivDonorReview"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
+                android:onClick="approvedappointment"
                 android:src="@drawable/review"
                 />
             <ImageView
@@ -98,7 +103,9 @@
                 android:layout_weight="50"
                 android:layout_margin="15dp"
                 android:adjustViewBounds="true"
+                android:onClick="accepappointments"
                 android:layout_marginRight="25dp"
+                android:id="@+id/ivDonationHistory"
                 android:layout_height="wrap_content"
                 android:src="@drawable/donationhistory"
                 />

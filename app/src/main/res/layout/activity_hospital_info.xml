@@ -121,7 +121,42 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:weightSum="100"
+        android:id="@+id/linearLayout5"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textColor="#e53a40"
+            android:layout_marginTop="20dp"
+            android:text="Phone No."
 
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPhoneHospital"
+            android:layout_weight="70"
+            android:hint="Enter Phone Number"
+            android:textColorHint="#a3a0a0"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="12dp"
+            android:backgroundTint="#e53a40"
+            android:inputType="number"
+            android:maxWidth="100dip"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,7 +165,7 @@
         android:onClick="createhospital"
         android:background="@drawable/btnback"
         android:id="@+id/bSubmitDetailsHospital"
-        android:layout_below="@+id/linearLayout4"
+        android:layout_below="@+id/linearLayout5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp" />
 

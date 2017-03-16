@@ -13,10 +13,10 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView"
         android:src="@drawable/logo"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="15dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -27,7 +27,23 @@
         android:src="@drawable/name"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp" />
+        android:layout_marginTop="35dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_below="@id/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <EditText
         android:layout_width="300dp"
@@ -40,8 +56,8 @@
         android:hint="Email Address"
         android:paddingLeft="15dp"
         android:textSize="15dp"
-        android:layout_marginTop="86dp"
-        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/sign_in_button"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -55,8 +71,8 @@
         android:inputType="textPassword"
         android:textSize="15dp"
 
-        android:layout_marginTop="136dp"
-        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etEmailAdd"
         android:layout_centerHorizontal="true"
         android:textColorHint="#a3a0a0" />
 
@@ -87,7 +103,7 @@
         android:background="@drawable/btnback"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -99,7 +115,7 @@
         android:id="@+id/tvRegister"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="6dp"
         android:textColor="#565656" />
 
 

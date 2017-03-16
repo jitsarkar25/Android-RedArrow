@@ -1,0 +1,964 @@
+12:28:19.553 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+12:28:19.574 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485241099574
+12:28:19.715 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+12:28:19.716 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+12:28:19.717 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.718 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+12:28:19.718 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+12:28:19.719 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+12:28:19.719 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+12:28:19.720 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.721 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.722 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Kernel Debug Network Adapter
+12:28:19.722 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Realtek PCIe GBE Family Controller
+12:28:19.723 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.724 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.724 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Realtek PCIe GBE Family Controller
+12:28:19.725 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)
+12:28:19.726 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.727 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.727 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.10.107
+12:28:19.727 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:b8bc:3b54:2d14:c6c0%wlan0
+12:28:19.728 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)
+12:28:19.728 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+12:28:19.729 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.730 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.731 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:91f6:db80:db75:fc1%wlan1
+12:28:19.731 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Microsoft Wi-Fi Direct Virtual Adapter
+12:28:19.731 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (SSTP)
+12:28:19.733 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.734 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.735 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (SSTP)
+12:28:19.735 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPPOE)
+12:28:19.736 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.737 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.737 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPPOE)
+12:28:19.738 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPTP)
+12:28:19.740 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.741 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.741 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPTP)
+12:28:19.742 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (L2TP)
+12:28:19.742 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.744 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.745 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (L2TP)
+12:28:19.745 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IKEv2)
+12:28:19.746 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.747 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.747 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IKEv2)
+12:28:19.747 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)
+12:28:19.748 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.749 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.749 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)
+12:28:19.749 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)
+12:28:19.750 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.752 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.752 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)
+12:28:19.752 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+12:28:19.753 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.754 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.754 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)
+12:28:19.754 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface RAS Async Adapter
+12:28:19.755 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.756 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.756 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface RAS Async Adapter
+12:28:19.757 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter
+12:28:19.758 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.760 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.760 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:e02b:dc5a:3fb4:bf0f%wlan2
+12:28:19.761 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Microsoft Hosted Network Virtual Adapter
+12:28:19.761 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E) #2
+12:28:19.762 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.764 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.764 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E) #2
+12:28:19.764 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter #2
+12:28:19.765 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.766 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.766 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter #2
+12:28:19.766 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+12:28:19.768 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.769 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.769 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2
+12:28:19.769 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+12:28:19.770 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.771 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+12:28:19.771 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:a6b%net4
+12:28:19.772 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Teredo Tunneling Pseudo-Interface
+12:28:19.773 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.773 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+12:28:19.774 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /2001:0:d5c:5a30:2cca:2512:d404:56a8
+12:28:19.774 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:2cca:2512:d404:56a8%net5
+12:28:19.774 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E) #3
+12:28:19.775 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.776 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.776 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E) #3
+12:28:19.776 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #4
+12:28:19.777 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.778 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.778 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #4
+12:28:19.778 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter #4
+12:28:19.779 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.780 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.780 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter #4
+12:28:19.780 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.781 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.782 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.782 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.783 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-Virtual WiFi Filter Driver-0000
+12:28:19.783 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.785 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.785 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-Virtual WiFi Filter Driver-0000
+12:28:19.785 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-Native WiFi Filter Driver-0000
+12:28:19.786 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.788 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.788 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-Native WiFi Filter Driver-0000
+12:28:19.788 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-QoS Packet Scheduler-0000
+12:28:19.789 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.790 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.790 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-QoS Packet Scheduler-0000
+12:28:19.791 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.792 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.792 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.793 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface D-Link DWA-131 Wireless N Nano USB Adapter(rev.E)-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.793 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.794 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.795 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.795 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.795 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter-Native WiFi Filter Driver-0000
+12:28:19.796 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.797 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.798 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter-Native WiFi Filter Driver-0000
+12:28:19.798 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.799 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.801 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.801 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+12:28:19.801 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+12:28:19.803 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.808 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.809 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+12:28:19.809 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter-QoS Packet Scheduler-0000
+12:28:19.810 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.811 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.811 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter-QoS Packet Scheduler-0000
+12:28:19.811 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Hosted Network Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.812 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.813 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.813 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Hosted Network Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.813 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+12:28:19.814 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.815 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.815 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+12:28:19.816 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.817 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+12:28:19.819 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+12:28:19.819 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+12:28:19.983 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+12:28:19.987 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Tue Jan 24 12:28:19 IST 2017, with address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:28:19.989 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:28:19.990 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+12:28:19.991 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+12:28:20.122 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+12:28:20.156 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:28:20.522 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+12:28:20.540 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+12:28:20.544 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+12:28:20.546 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+12:28:20.547 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 10800000ms
+12:28:20.549 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 15:28:19 IST 2017
+12:28:20.719 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:56243 to /127.0.0.1:56241.
+12:28:21.058 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Build
+12:28:21.059 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}
+12:28:21.059 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}.
+12:28:21.060 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow} with connection: socket connection from /127.0.0.1:56241 to /127.0.0.1:56243.
+12:28:21.110 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@40756c0e] after 0.0 minutes of idle
+12:28:21.110 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:28:21.110 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:28:21.117 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+12:28:21.118 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:28:21.134 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+12:28:21.138 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485241101138
+12:28:21.138 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+12:28:21.139 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}. Dispatching build started information...
+12:28:21.139 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+12:28:21.152 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+12:28:21.152 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@666b8fce
+12:28:21.153 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=my-pc, LOCALAPPDATA=C:\Users\jit\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=my-pc, LOGONSERVER=\\MY-PC, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\jit\AppData\Roaming, USERNAME=jit, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Users\jit\Anaconda2;C:\Users\jit\Anaconda2\Scripts;C:\Users\jit\Anaconda2\Library\bin;C:\Users\jit\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_45\bin;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=MY-PC, PROCESSOR_REVISION=3a09, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\jit, SystemRoot=C:\Windows, TEMP=C:\Users\jit\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, USERPROFILE=C:\Users\jit, TMP=C:\Users\jit\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, windir=C:\Windows, =::=::\}
+12:28:21.216 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+12:28:21.216 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6072). The daemon log file: H:\red arrow\app\RedArrow\gradle\daemon\2.10\daemon-6072.out.log
+12:28:21.306 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting build in new daemon [memory: 954.7 MB]
+12:28:21.308 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+12:28:21.308 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+12:28:21.313 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+12:28:21.313 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+12:28:26.085 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files is not available.  Continuing with fallback.
+12:28:27.045 [INFO] [org.gradle.tooling.internal.provider.DefaultPayloadClassLoaderRegistry] Creating ClassLoader 4a39f4b0-d474-4dda-8e62-0efc0a2de55e from [Spec classpath:[file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-tooling-api-2.2.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/guava-jdk5-17.0.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-base-services-2.2.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-tooling-extension-api.jar, file:/C:/Program%20Files/Android/Android%20Studio/lib/openapi.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/google-cloud-tools-core/lib/gradle-appengine-builder-model-0.1.0.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/builder-model-1.5.0-beta2.jar]] and [org.gradle.internal.classloader.FilteringClassLoader@4b5d4f5d].
+12:28:27.069 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1).
+12:28:27.071 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:28:27.079 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] Starting file lock listener thread.
+Incremental java compilation is an incubating feature.
+
+BUILD SUCCESSFUL
+
+Total time: 52.129 secs
+12:29:07.874 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo405.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo405_a9nupt7ledxuqofguuyb3d4xo\cp_init).
+12:29:07.875 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo405.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo405_a9nupt7ledxuqofguuyb3d4xo\init).
+12:29:07.875 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\ijinit89.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\ijinit89_6001hbcdmezacjfkuz15bimpp\cp_init).
+12:29:07.875 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\ijinit89.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\ijinit89_6001hbcdmezacjfkuz15bimpp\init).
+12:29:07.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\cp_settings).
+12:29:07.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\settings).
+12:29:07.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\cp_proj).
+12:29:07.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\proj).
+12:29:07.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\cp_proj).
+12:29:07.877 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\proj).
+12:29:07.877 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1).
+12:29:07.882 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-versions.bin)
+12:29:07.883 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-metadata.bin)
+12:29:07.884 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\artifact-at-repository.bin)
+12:29:07.884 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-artifacts.bin)
+12:29:07.884 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (H:\red arrow\app\RedArrow\gradle\caches\modules-2).
+12:29:07.888 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 51, cache instances: 4, modules served from cache: 1102, artifacts: 346
+12:29:07.889 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+12:29:07.891 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 12, disk reads: 13 (avg: 0.004 secs, total: 0.063 secs)
+12:29:07.891 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.003 secs
+12:29:07.891 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (H:\red arrow\app\RedArrow\gradle\caches\2.10\plugin-resolution) was closed 0 times.
+12:29:07.892 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+12:29:07.892 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+12:29:07.895 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+12:29:08.321 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+12:29:08.322 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@40756c0e]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@48c1eb8a with state Running
+12:29:08.323 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@40756c0e]
+12:29:08.323 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485241148323
+12:29:08.323 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:08.323 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:08.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+12:29:08.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:29:08.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+12:29:08.342 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 15:29:08 IST 2017
+12:29:08.342 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@3c671e39]
+12:29:08.342 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+12:29:08.403 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=f4719c92-48ba-48f4-a10c-a4521534c0b4.1, currentDir=H:\red arrow\app\RedArrow}
+12:29:08.409 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+12:29:08.409 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@284b933a
+12:29:08.410 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@284b933a
+12:29:08.410 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+12:29:08.410 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+12:29:08.410 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+12:29:08.410 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+12:29:08.411 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+12:29:14.958 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:56343 to /127.0.0.1:56241.
+12:29:15.010 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received class org.gradle.launcher.daemon.protocol.Build
+12:29:15.011 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}
+12:29:15.014 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}.
+12:29:15.018 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow} with connection: socket connection from /127.0.0.1:56241 to /127.0.0.1:56343.
+12:29:15.018 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@1a02678b] after 0.0 minutes of idle
+12:29:15.019 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:15.019 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:15.019 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+12:29:15.019 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:29:15.031 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+12:29:15.037 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485241155037
+12:29:15.037 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+12:29:15.037 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}. Dispatching build started information...
+12:29:15.038 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+12:29:15.039 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=my-pc, LOCALAPPDATA=C:\Users\jit\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=my-pc, LOGONSERVER=\\MY-PC, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\jit\AppData\Roaming, USERNAME=jit, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Users\jit\Anaconda2;C:\Users\jit\Anaconda2\Scripts;C:\Users\jit\Anaconda2\Library\bin;C:\Users\jit\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_45\bin;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=MY-PC, PROCESSOR_REVISION=3a09, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\jit, SystemRoot=C:\Windows, TEMP=C:\Users\jit\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, USERPROFILE=C:\Users\jit, TMP=C:\Users\jit\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, windir=C:\Windows, =::=::\}
+12:29:15.041 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+12:29:15.041 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6072). The daemon log file: H:\red arrow\app\RedArrow\gradle\daemon\2.10\daemon-6072.out.log
+12:29:15.042 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 2nd build in daemon [uptime: 55.505 secs, performance: 100%, memory: 34% of 954.7 MB]
+12:29:15.044 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+12:29:15.044 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:app:prepareComAndroidSupportMediarouterV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:app:prepareComAndroidSupportPaletteV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidVolleyVolley100Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServices960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAds960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuth960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAwareness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCast960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCastFramework960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesClearcut960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesDrive960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesFitness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGames960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGass960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGcm960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIid960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesInstantapps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesNearby960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlaces960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlus960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesVision960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWallet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWearable960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuth960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthModule960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseConfig960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCrash960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabase960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorage960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorageCommon960Library UP-TO-DATE
+:app:prepareComGoogleMapsAndroidAndroidMapsUtils034Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportMultidexInstrumentation101Library UP-TO-DATE
+:app:prepareDebugAndroidTestDependencies
+:app:compileDebugAndroidTestAidl UP-TO-DATE
+:app:processDebugAndroidTestManifest UP-TO-DATE
+:app:compileDebugAndroidTestRenderscript UP-TO-DATE
+:app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:app:generateDebugAndroidTestAssets UP-TO-DATE
+:app:mergeDebugAndroidTestAssets UP-TO-DATE
+:app:generateDebugAndroidTestResValues UP-TO-DATE
+:app:generateDebugAndroidTestResources UP-TO-DATE
+:app:mergeDebugAndroidTestResources UP-TO-DATE
+:app:processDebugAndroidTestResources UP-TO-DATE
+:app:generateDebugAndroidTestSources UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 13.027 secs
+12:29:27.947 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\taskArtifacts.bin)
+12:29:27.948 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileHashes.bin)
+12:29:27.948 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileSnapshots.bin)
+12:29:27.948 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\outputFileStates.bin)
+12:29:27.948 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts).
+12:29:27.952 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo406.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo406_bpw00txvv78dynso049ht9yia\cp_init).
+12:29:27.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo406.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo406_bpw00txvv78dynso049ht9yia\init).
+12:29:27.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\cp_settings).
+12:29:27.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\settings).
+12:29:27.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\cp_proj).
+12:29:27.953 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\proj).
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\cp_proj).
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\proj).
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1) was closed 0 times.
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-artifacts.bin)
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-versions.bin)
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\artifact-at-repository.bin)
+12:29:27.954 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-metadata.bin)
+12:29:27.955 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (H:\red arrow\app\RedArrow\gradle\caches\modules-2).
+12:29:27.972 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 32, cache instances: 4, modules served from cache: 590, artifacts: 97
+12:29:27.973 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+12:29:27.974 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 10 (avg: 0.004 secs, total: 0.044 secs)
+12:29:27.974 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+12:29:27.974 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (H:\red arrow\app\RedArrow\gradle\caches\2.10\plugin-resolution) was closed 0 times.
+12:29:27.974 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+12:29:27.974 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+12:29:27.975 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+12:29:27.976 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@1a02678b]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@48c1eb8a with state Running
+12:29:27.976 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@1a02678b]
+12:29:27.976 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485241167976
+12:29:27.977 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:27.977 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+12:29:27.977 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+12:29:27.977 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+12:29:27.979 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+12:29:27.982 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@1f10660a]
+12:29:27.982 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 15:29:27 IST 2017
+12:29:27.983 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+12:29:27.983 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=182ee399-ca1e-4c35-91c7-a09fc879b88d.1, currentDir=H:\red arrow\app\RedArrow}
+12:29:27.985 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received class org.gradle.launcher.daemon.protocol.Finished
+12:29:27.985 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@4954f638
+12:29:27.985 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+12:29:27.986 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@4954f638
+12:29:27.986 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received null
+12:29:27.986 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+12:29:27.986 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+12:29:27.987 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+13:04:57.834 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:59723 to /127.0.0.1:56241.
+13:04:57.864 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.Build
+13:04:57.864 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}
+13:04:57.865 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}.
+13:04:57.865 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow} with connection: socket connection from /127.0.0.1:56241 to /127.0.0.1:59723.
+13:04:57.866 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@5acaafcb] after 35.0 minutes of idle
+13:04:57.866 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:04:57.866 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:04:57.867 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:04:57.867 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:04:57.876 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:04:57.881 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485243297881
+13:04:57.882 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:04:57.883 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}. Dispatching build started information...
+13:04:57.884 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 26: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:04:57.886 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=my-pc, LOCALAPPDATA=C:\Users\jit\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=my-pc, LOGONSERVER=\\MY-PC, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\jit\AppData\Roaming, USERNAME=jit, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Users\jit\Anaconda2;C:\Users\jit\Anaconda2\Scripts;C:\Users\jit\Anaconda2\Library\bin;C:\Users\jit\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_45\bin;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=MY-PC, PROCESSOR_REVISION=3a09, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\jit, SystemRoot=C:\Windows, TEMP=C:\Users\jit\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, USERPROFILE=C:\Users\jit, TMP=C:\Users\jit\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, windir=C:\Windows, =::=::\}
+13:04:57.887 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:04:57.887 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6072). The daemon log file: H:\red arrow\app\RedArrow\gradle\daemon\2.10\daemon-6072.out.log
+13:04:57.888 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 3rd build in daemon [uptime: 36 mins 38.351 secs, performance: 99%, memory: 34% of 954.7 MB]
+13:04:57.888 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:04:57.888 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:04:57.889 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:04:57.889 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@1495c1b1
+13:04:57.890 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:04:57.890 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:app:prepareComAndroidSupportMediarouterV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:app:prepareComAndroidSupportPaletteV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidVolleyVolley100Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServices960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAds960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuth960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAwareness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCast960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCastFramework960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesClearcut960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesDrive960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesFitness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGames960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGass960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGcm960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIid960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesInstantapps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesNearby960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlaces960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlus960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesVision960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWallet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWearable960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuth960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthModule960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseConfig960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCrash960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabase960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorage960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorageCommon960Library UP-TO-DATE
+:app:prepareComGoogleMapsAndroidAndroidMapsUtils034Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\HospitalProfile2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\DonorLocationSearch.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithJarMergingForDebug
+:app:collectDebugMultiDexComponents UP-TO-DATE
+:app:transformClassesWithMultidexlistForDebug
+ProGuard, version 5.2.1
+Reading program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+Reading library jar [C:\Users\jit\AppData\Local\Android\sdk\build-tools\24.0.1\lib\shrinkedAndroid.jar]
+Preparing output jar [H:\red arrow\app\RedArrow\app\build\intermediates\multi-dex\debug\componentClasses.jar]
+  Copying resources from program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+
+BUILD SUCCESSFUL
+
+Total time: 57.768 secs
+13:05:55.559 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileSnapshots.bin)
+13:05:55.636 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileHashes.bin)
+13:05:55.639 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\outputFileStates.bin)
+13:05:55.639 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\taskArtifacts.bin)
+13:05:55.645 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts).
+13:05:55.650 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo407.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo407_8deb86rtccsx8tuswjbxpjhor\cp_init).
+13:05:55.650 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo407.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo407_8deb86rtccsx8tuswjbxpjhor\init).
+13:05:55.650 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\cp_settings).
+13:05:55.650 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\settings).
+13:05:55.650 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\cp_proj).
+13:05:55.651 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\proj).
+13:05:55.651 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\cp_proj).
+13:05:55.651 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\proj).
+13:05:55.651 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1) was closed 0 times.
+13:05:55.651 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\artifact-at-repository.bin)
+13:05:55.652 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-metadata.bin)
+13:05:55.652 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-versions.bin)
+13:05:55.652 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-artifacts.bin)
+13:05:55.652 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (H:\red arrow\app\RedArrow\gradle\caches\modules-2).
+13:05:55.657 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 32, cache instances: 4, modules served from cache: 590, artifacts: 97
+13:05:55.764 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:05:55.832 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 10 (avg: 0.0 secs, total: 0.008 secs)
+13:05:55.832 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.175 secs
+13:05:55.833 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (H:\red arrow\app\RedArrow\gradle\caches\2.10\plugin-resolution) was closed 0 times.
+13:05:55.833 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:05:55.833 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:05:55.833 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:05:56.068 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@5acaafcb]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@48c1eb8a with state Running
+13:05:56.069 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@5acaafcb]
+13:05:56.069 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485243356069
+13:05:56.069 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:05:56.069 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:05:56.070 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:05:56.070 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:05:56.080 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:05:56.083 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@7c4a850d]
+13:05:56.083 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 23: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:05:56.083 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 16:05:56 IST 2017
+13:05:56.085 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=52a3a159-aa3a-4f16-abbd-a22b482e17b9.1, currentDir=H:\red arrow\app\RedArrow}
+13:05:56.091 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received class org.gradle.launcher.daemon.protocol.Finished
+13:05:56.091 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@55a8cb8a
+13:05:56.092 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:05:56.092 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: received null
+13:05:56.092 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:05:56.107 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:05:56.111 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 23: stopping connection
+13:05:56.113 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 23: stopping connection
+13:16:07.750 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:63820 to /127.0.0.1:56241.
+13:16:07.784 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: received class org.gradle.launcher.daemon.protocol.Build
+13:16:07.785 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}
+13:16:07.786 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}.
+13:16:07.787 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow} with connection: socket connection from /127.0.0.1:56241 to /127.0.0.1:63820.
+13:16:07.787 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@776bf31b] after 10.0 minutes of idle
+13:16:07.788 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:16:07.788 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:16:07.789 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:16:07.789 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:16:07.797 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:16:07.804 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485243967804
+13:16:07.804 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:16:07.804 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}. Dispatching build started information...
+13:16:07.805 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 48: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:16:07.807 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=my-pc, LOCALAPPDATA=C:\Users\jit\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=my-pc, LOGONSERVER=\\MY-PC, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\jit\AppData\Roaming, USERNAME=jit, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Users\jit\Anaconda2;C:\Users\jit\Anaconda2\Scripts;C:\Users\jit\Anaconda2\Library\bin;C:\Users\jit\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_45\bin;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=MY-PC, PROCESSOR_REVISION=3a09, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\jit, SystemRoot=C:\Windows, TEMP=C:\Users\jit\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, USERPROFILE=C:\Users\jit, TMP=C:\Users\jit\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, windir=C:\Windows, =::=::\}
+13:16:07.812 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:16:07.813 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6072). The daemon log file: H:\red arrow\app\RedArrow\gradle\daemon\2.10\daemon-6072.out.log
+13:16:07.815 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 4th build in daemon [uptime: 47 mins 48.278 secs, performance: 99%, memory: 54% of 954.7 MB]
+13:16:07.818 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:16:07.818 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:app:prepareComAndroidSupportMediarouterV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:app:prepareComAndroidSupportPaletteV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidVolleyVolley100Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServices960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAds960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuth960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAwareness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCast960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCastFramework960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesClearcut960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesDrive960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesFitness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGames960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGass960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGcm960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIid960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesInstantapps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesNearby960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlaces960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlus960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesVision960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWallet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWearable960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuth960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthModule960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseConfig960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCrash960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabase960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorage960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorageCommon960Library UP-TO-DATE
+:app:prepareComGoogleMapsAndroidAndroidMapsUtils034Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\HospitalProfile2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\DonorLocationSearch.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithJarMergingForDebug
+:app:collectDebugMultiDexComponents UP-TO-DATE
+:app:transformClassesWithMultidexlistForDebug
+ProGuard, version 5.2.1
+Reading program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+Reading library jar [C:\Users\jit\AppData\Local\Android\sdk\build-tools\24.0.1\lib\shrinkedAndroid.jar]
+Preparing output jar [H:\red arrow\app\RedArrow\app\build\intermediates\multi-dex\debug\componentClasses.jar]
+  Copying resources from program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+
+BUILD SUCCESSFUL
+
+Total time: 44.253 secs
+13:16:51.961 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileHashes.bin)
+13:16:51.964 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\taskArtifacts.bin)
+13:16:51.968 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\outputFileStates.bin)
+13:16:51.968 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileSnapshots.bin)
+13:16:51.971 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts).
+13:16:51.974 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo408.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo408_1pbij77nhrlbbfoq4rrfo6c2i\cp_init).
+13:16:51.974 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo408.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo408_1pbij77nhrlbbfoq4rrfo6c2i\init).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\cp_settings).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\settings).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\cp_proj).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\proj).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\cp_proj).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\proj).
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1) was closed 0 times.
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-metadata.bin)
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-versions.bin)
+13:16:51.975 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-artifacts.bin)
+13:16:51.976 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\artifact-at-repository.bin)
+13:16:51.976 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (H:\red arrow\app\RedArrow\gradle\caches\modules-2).
+13:16:51.980 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 32, cache instances: 4, modules served from cache: 590, artifacts: 97
+13:16:51.981 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:16:51.982 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 10 (avg: 0.001 secs, total: 0.015 secs)
+13:16:51.982 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+13:16:51.982 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (H:\red arrow\app\RedArrow\gradle\caches\2.10\plugin-resolution) was closed 0 times.
+13:16:51.982 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:16:51.982 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:16:51.982 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:16:52.366 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:16:52.367 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@776bf31b]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@48c1eb8a with state Running
+13:16:52.367 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@776bf31b]
+13:16:52.367 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485244012367
+13:16:52.367 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:16:52.367 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:16:52.367 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:16:52.367 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:16:52.369 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:16:52.373 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@3917cdb4]
+13:16:52.373 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 16:16:52 IST 2017
+13:16:52.373 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 45: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:16:52.374 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=99bfc5e1-a950-40a5-bd41-d9b1cd365efa.1, currentDir=H:\red arrow\app\RedArrow}
+13:16:52.380 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: received class org.gradle.launcher.daemon.protocol.Finished
+13:16:52.380 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@e5d7953
+13:16:52.380 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:16:52.381 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 46: received null
+13:16:52.381 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:16:52.381 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:16:52.381 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 45: stopping connection
+13:16:52.386 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 45: stopping connection
+13:37:52.244 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:56187 to /127.0.0.1:56241.
+13:37:52.265 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 67: received class org.gradle.launcher.daemon.protocol.Build
+13:37:52.265 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}
+13:37:52.265 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}.
+13:37:52.265 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow} with connection: socket connection from /127.0.0.1:56241 to /127.0.0.1:56187.
+13:37:52.266 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2dce3c0f] after 20.0 minutes of idle
+13:37:52.266 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:37:52.266 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:37:52.267 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:37:52.267 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:37:52.276 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:37:52.279 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485245272279
+13:37:52.279 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:37:52.279 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}. Dispatching build started information...
+13:37:52.279 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 69: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+13:37:52.280 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=my-pc, LOCALAPPDATA=C:\Users\jit\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=my-pc, LOGONSERVER=\\MY-PC, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\jit\AppData\Roaming, USERNAME=jit, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Users\jit\Anaconda2;C:\Users\jit\Anaconda2\Scripts;C:\Users\jit\Anaconda2\Library\bin;C:\Users\jit\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_45\bin;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=MY-PC, PROCESSOR_REVISION=3a09, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\jit, SystemRoot=C:\Windows, TEMP=C:\Users\jit\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, USERPROFILE=C:\Users\jit, TMP=C:\Users\jit\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=4, windir=C:\Windows, =::=::\}
+13:37:52.282 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+13:37:52.282 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6072). The daemon log file: H:\red arrow\app\RedArrow\gradle\daemon\2.10\daemon-6072.out.log
+13:37:52.283 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 5th build in daemon [uptime: 1 hrs 9 mins 32.747 secs, performance: 99%, memory: 57% of 954.7 MB]
+13:37:52.283 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+13:37:52.283 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=a31f26c3-bfa0-4fba-8afb-5365eb80d11e,javaHome=C:\Program Files\Java\jdk1.8.0_45,daemonRegistryDir=H:\red arrow\app\RedArrow\gradle\daemon,pid=6072,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+13:37:52.284 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 67: received class org.gradle.launcher.daemon.protocol.CloseInput
+13:37:52.284 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@ceb149e
+13:37:52.288 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+13:37:52.288 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2340Library UP-TO-DATE
+:app:prepareComAndroidSupportMediarouterV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:app:prepareComAndroidSupportPaletteV72400Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72340Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportVectorDrawable2400Library UP-TO-DATE
+:app:prepareComAndroidVolleyVolley100Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServices960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAds960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuth960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesAwareness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBase960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesBasement960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCast960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesCastFramework960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesClearcut960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesDrive960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesFitness960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGames960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGass960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesGcm960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesIid960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesInstantapps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesLocation960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesMaps960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesNearby960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlaces960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesPlus960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesTasks960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesVision960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWallet960Library UP-TO-DATE
+:app:prepareComGoogleAndroidGmsPlayServicesWearable960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalytics960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuth960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseAuthModule960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCommon960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseConfig960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseCrash960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabase960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseIid960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseMessaging960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorage960Library UP-TO-DATE
+:app:prepareComGoogleFirebaseFirebaseStorageCommon960Library UP-TO-DATE
+:app:prepareComGoogleMapsAndroidAndroidMapsUtils034Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\HospitalProfile2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: H:\red arrow\app\RedArrow\app\src\main\java\redarrow\dotapk\jit\redarrow\DonorLocationSearch.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithJarMergingForDebug
+:app:collectDebugMultiDexComponents UP-TO-DATE
+:app:transformClassesWithMultidexlistForDebug
+ProGuard, version 5.2.1
+Reading program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+Reading library jar [C:\Users\jit\AppData\Local\Android\sdk\build-tools\24.0.1\lib\shrinkedAndroid.jar]
+Preparing output jar [H:\red arrow\app\RedArrow\app\build\intermediates\multi-dex\debug\componentClasses.jar]
+  Copying resources from program jar [H:\red arrow\app\RedArrow\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar]
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 21.875 secs
+13:39:14.100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\outputFileStates.bin)
+13:39:14.100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileHashes.bin)
+13:39:14.105 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\fileSnapshots.bin)
+13:39:14.122 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts\taskArtifacts.bin)
+13:39:14.126 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (H:\red arrow\app\RedArrow\.gradle\2.10\taskArtifacts).
+13:39:14.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo409.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo409_du9elpokakxpncro1n7cwwmet\cp_init).
+13:39:14.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on init class cache for initialization script 'C:\Users\jit\AppData\Local\Temp\asLocalRepo409.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\asLocalRepo409_du9elpokakxpncro1n7cwwmet\init).
+13:39:14.129 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\cp_settings).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on settings class cache for settings file 'H:\red arrow\app\RedArrow\settings.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\settings_davvb4xkg6bcji94khj3ixd9r\settings).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\cp_proj).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_cej92dhjga2omm7425a6ojgi5\proj).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\cp_proj).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj class cache for build file 'H:\red arrow\app\RedArrow\app\build.gradle' (H:\red arrow\app\RedArrow\gradle\caches\2.10\scripts\build_bq4gay2mn1w7tgk9pt3fvsgo3\proj).
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (H:\red arrow\app\RedArrow\gradle\caches\jars-1) was closed 0 times.
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifacts.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-artifacts.bin)
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-metadata.bin)
+13:39:14.130 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\artifact-at-repository.bin)
+13:39:14.131 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (H:\red arrow\app\RedArrow\gradle\caches\modules-2\metadata-2.16\module-versions.bin)
+13:39:14.131 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (H:\red arrow\app\RedArrow\gradle\caches\modules-2).
+13:39:14.135 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 32, cache instances: 4, modules served from cache: 590, artifacts: 97
+13:39:14.136 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+13:39:14.137 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 10 (avg: 0.0 secs, total: 0.008 secs)
+13:39:14.137 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+13:39:14.137 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (H:\red arrow\app\RedArrow\gradle\caches\2.10\plugin-resolution) was closed 0 times.
+13:39:14.137 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+13:39:14.137 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+13:39:14.137 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+13:39:14.383 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+13:39:14.384 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2dce3c0f]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@48c1eb8a with state Running
+13:39:14.384 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@2dce3c0f]
+13:39:14.384 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1485245354384
+13:39:14.384 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:39:14.385 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+13:39:14.385 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+13:39:14.386 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+13:39:14.395 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:39:14.398 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@c2a9b98]
+13:39:14.398 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 66: dispatching class org.gradle.launcher.daemon.protocol.Success
+13:39:14.399 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Tue Jan 24 16:39:14 IST 2017
+13:39:14.410 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 67: received class org.gradle.launcher.daemon.protocol.Finished
+13:39:14.410 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@4dd61ea5
+13:39:14.410 [DEBUG] [org.gradle.messaging.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+13:39:14.410 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 67: received null
+13:39:14.410 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+13:39:14.421 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=bf9ca0e6-9e87-48ed-b900-767abbf79632.1, currentDir=H:\red arrow\app\RedArrow}
+13:39:14.422 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+13:39:14.422 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 66: stopping connection
+13:39:14.423 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 66: stopping connection
+16:39:14.387 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has been idle for requested period. Stopping now.
+16:39:14.387 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to idle timeout. The daemon is running a build: false
+16:39:14.387 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+16:39:14.387 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+16:39:14.387 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:39:14.387 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:39:14.402 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:39:14.402 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:39:14.402 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:39:14.402 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+16:39:14.418 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [967dc851-1187-48a2-96df-435f4bd48561 port:56241, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:39:14.418 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:39:14.418 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:39:14.418 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

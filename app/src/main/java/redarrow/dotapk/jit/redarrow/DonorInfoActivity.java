@@ -2,7 +2,9 @@ package redarrow.dotapk.jit.redarrow;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,7 +32,7 @@ import java.util.Locale;
 import java.util.Map;
 
 public class DonorInfoActivity extends AppCompatActivity {
-    EditText dob,loc,healthiisue;
+    EditText dob,loc,healthiisue,phone;
     Calendar myCalendar = Calendar.getInstance();
     Spinner bloodtypeselect;
     String address,gotlat,gotlon;
@@ -42,6 +44,7 @@ public class DonorInfoActivity extends AppCompatActivity {
         loc = (EditText) findViewById(R.id.etAddress);
         healthiisue = (EditText) findViewById(R.id.etHealthIssues);
         bloodtypeselect=(Spinner)findViewById(R.id.spBloodTypeSelect);
+        phone=(EditText)findViewById(R.id.etPhone);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.blood_type, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -107,7 +110,7 @@ public class DonorInfoActivity extends AppCompatActivity {
     }
 
     public void createdonor(View v) {
-        if (dob.getText().toString().equals("") || loc.getText().toString().equals("") || bloodtypeselect.getSelectedItem().toString().equals("Blood Type")) {
+        if (dob.getText().toString().equals("") || phone.getText().toString().equals("") || loc.getText().toString().equals("") || bloodtypeselect.getSelectedItem().toString().equals("Blood Type")) {
             Toast.makeText(getApplicationContext(), "Enter proper Details", Toast.LENGTH_SHORT).show();
         } else {
             String url = "http://red-arrow.herokuapp.com/api/donor";
@@ -124,6 +127,21 @@ public class DonorInfoActivity extends AppCompatActivity {
                         //Log.d("create donor", token);
                    if(token.equals("true"))
                    {
+                      SharedPreferences sharedPreferences = getSharedPreferences("RedArrow_data", Context.MODE_PRIVATE);
+                       SharedPreferences.Editor editor = sharedPreferences.edit();
+                       editor.putString("id","0");
+                       editor.putString("name",getIntent().getStringExtra("name"));
+                       editor.putString("dob",dob.getText().toString());
+                       editor.putString("address",address);
+                       editor.putString("contact",phone.getText().toString());
+                       editor.putString("blood",bloodtypeselect.getSelectedItem().toString());
+                       editor.putString("issues",healthiisue.getText().toString());
+                       editor.putString("lat",gotlat);
+                       editor.putString("lng",gotlon);
+                       editor.putBoolean("isdonor", true);
+                       editor.putBoolean("islogin",true);
+                       editor.commit();
+
                        Intent intent = new Intent(getApplicationContext(), DonorProfileActivity.class);
                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                        startActivity(intent);
@@ -146,7 +164,7 @@ public class DonorInfoActivity extends AppCompatActivity {
                     Map<String, String> params = new HashMap<>();
                     String name = getIntent().getStringExtra("name");
                     String dobs = dob.getText().toString();
-                    String contact = getIntent().getStringExtra("contact");
+                    String contact =phone.getText().toString();
                     String health = healthiisue.getText().toString();
                     if(health.equals(""))
                         health="none";
@@ -167,12 +185,13 @@ public class DonorInfoActivity extends AppCompatActivity {
                     Map<String, String> headers = new HashMap<>();
                     String token = getIntent().getStringExtra("token");
                     headers.put("Authorization", "Bearer " + token);
-                    //   Log.d("Red","login "+headers.get("Authorization"));
+                    //Log.d("Red","login "+headers.get("Authorization"));
                     return headers;
                 }
             };
-
-            MySingleton.getInstance(this).addToRequestQueue(stringRequest);
+                    MySingleton.getInstance(this).addToRequestQueue(stringRequest);
         }
     }
+
+
 }

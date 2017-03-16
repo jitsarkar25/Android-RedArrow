@@ -2,7 +2,9 @@ package redarrow.dotapk.jit.redarrow;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,7 +32,7 @@ import java.util.Locale;
 import java.util.Map;
 
 public class HospitalInfoActivity extends AppCompatActivity {
-    EditText regno,lochos;
+    EditText regno,lochos,phonehos;
     Calendar myCalendar = Calendar.getInstance();
     String address,gotlat,gotlon;
     @Override
@@ -39,6 +41,7 @@ public class HospitalInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hospital_info);
         regno = (EditText) findViewById(R.id.etRegno);
         lochos = (EditText) findViewById(R.id.etAddressHospital);
+        phonehos = (EditText) findViewById(R.id.etPhoneHospital);
 
 
 
@@ -90,6 +93,17 @@ public class HospitalInfoActivity extends AppCompatActivity {
                         {
                             Intent intent = new Intent(getApplicationContext(), HospitalProfile2.class);
                             Hospital hospital1=new Hospital( getIntent().getStringExtra("name"),regno.getText().toString(),address,getIntent().getStringExtra("contact"),gotlat,gotlon);
+                            SharedPreferences sharedPreferences = getSharedPreferences("RedArrow_data", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString("name",getIntent().getStringExtra("name"));
+                            editor.putString("reg_no",regno.getText().toString());
+                            editor.putString("address",address);
+                            editor.putString("contact",getIntent().getStringExtra("contact"));
+                            editor.putString("lat",gotlat);
+                            editor.putString("lng",gotlon);
+                            editor.putBoolean("islogin",true);
+                            editor.putBoolean("isdonor",false);
+                            editor.commit();
                             intent.putExtra("hospitalinfo",hospital1);
                             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
@@ -114,7 +128,7 @@ public class HospitalInfoActivity extends AppCompatActivity {
                     Map<String, String> params = new HashMap<>();
                     String name = getIntent().getStringExtra("name");
                     //String dobs = dob.getText().toString();
-                    String contact = getIntent().getStringExtra("contact");
+                    String contact = phonehos.getText().toString();
                     String reg = regno.getText().toString();
                     //if(health.equals(""))
                       //  health="none";

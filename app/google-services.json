@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "106549887679",
+    "firebase_url": "https://red-arrow-152817.firebaseio.com",
+    "project_id": "red-arrow-152817",
+    "storage_bucket": "red-arrow-152817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106549887679:android:dbb8bd014b1495c0",
+        "android_client_info": {
+          "package_name": "redarrow.dotapk.jit.redarrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106549887679-s93cth3e3pra0h8np2blfg4bbe3mdhrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "redarrow.dotapk.jit.redarrow",
+            "certificate_hash": "AC6C2C21599765106576D77554EDCEA21747C748"
+          }
+        },
+        {
+          "client_id": "106549887679-sqggombv9p7gi3egs2ak2ol1r3glck8k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "106549887679-b686nl9ra4ceik4rf03esfqpvhsl53b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgCutFRaFivrkrPdTKSMCp8zXjah6aQy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106549887679-sqggombv9p7gi3egs2ak2ol1r3glck8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

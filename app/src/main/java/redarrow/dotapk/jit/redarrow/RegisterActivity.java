@@ -11,8 +11,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.NetworkError;
+import com.android.volley.NoConnectionError;
+import com.android.volley.ParseError;
 import com.android.volley.Request;
 import com.android.volley.Response;
+import com.android.volley.ServerError;
+import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 
@@ -25,7 +30,7 @@ import java.util.Map;
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
     Button register;
     ProgressDialog progressDialog;
-    EditText name,email,contact,password,confpassword;
+    EditText name,email,password,confpassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +38,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         register=(Button)findViewById(R.id.bRegister);
         name=(EditText)findViewById(R.id.etName);
         email=(EditText)findViewById(R.id.etEmail);
-        contact=(EditText)findViewById(R.id.etMobile);
+
         password=(EditText)findViewById(R.id.etPasswordReg);
         confpassword=(EditText)findViewById(R.id.etConfirmPassword);
         register.setOnClickListener(this);
@@ -48,10 +53,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 final String nam,ln,em,con,pass,conpass;
                 nam=name.getText().toString();
                 em=email.getText().toString();
-                con=contact.getText().toString();
                 pass=password.getText().toString();
                 conpass=confpassword.getText().toString();
-                if(nam.equals("") || em.equals("") || con.equals("") || pass.equals("") || conpass.equals(""))
+                if(nam.equals("") || em.equals("")  || pass.equals("") || conpass.equals(""))
                 {
                     Toast.makeText(this, "Enter the proper details", Toast.LENGTH_SHORT).show();
 
@@ -87,7 +91,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                 Intent intent=new Intent(getApplicationContext(),ChooseActivity.class);
                                 intent.putExtra("name",nam);
                                 intent.putExtra("email",em);
-                                intent.putExtra("number",con);
+
                                 intent.putExtra("token",token);
                                 startActivity(intent);
 
@@ -104,7 +108,17 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     }, new Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError error) {
-                            Log.d("Red", error.toString());
+                            if (error instanceof TimeoutError || error instanceof NoConnectionError) {
+                                Log.d("Red", "Timeout");
+                            } else if (error instanceof AuthFailureError) {
+                                Toast.makeText(getApplicationContext(),"Email Already Registered",Toast.LENGTH_SHORT).show();
+                            } else if (error instanceof ServerError) {
+                                Log.d("Red", "Server Error");
+                            } else if (error instanceof NetworkError) {
+                                Log.d("Red", "Network Error");
+                            } else if (error instanceof ParseError) {
+                                Log.d("Red", "Parse Error");
+                            }
                             progressDialog.dismiss();
                         }
                     }){
@@ -112,8 +126,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         protected Map<String, String> getParams() throws AuthFailureError {
                             Map <String,String> params =new HashMap<>();
                             params.put("grant_type","register");
-                            params.put("client_id","1");
-                            params.put("client_secret","VKtTn6AdLuXgSTb5A1vn2KH2z9yWufKrWdiWDpnj");
+                            params.put("client_id","2");
+                            params.put("client_secret","DnyHpJOb5e3b9ATWM3Y49TrudpUWKH1t908y9Vdu");
                             params.put("name",nam);
                             params.put("password", pass);
                             params.put("email", em);

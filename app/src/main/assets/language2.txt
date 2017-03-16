@@ -1,0 +1,49 @@
+﻿share link-Share Link-लिंक शेयर करें-শেয়ার লিংক
+language-Language-भाषा-ভাষা
+share link-Share Link-लिंक शेयर करें-শেয়ার লিংক
+find donor-Find Donor-दाताओं को खोजें-দাতা অনুসন্ধান
+default settings-Default Settings-डिफ़ॉल्ट सेटिंग-ডিফল্ট সেটিংস
+notification-Notification-सूचनाएं-প্রজ্ঞাপন
+donor review-Accepted Appointments-दाता समीक्षा-দাতা পর্যালোচনা
+approved appointments-Approved Appointments-दान इतिहास-অনুদান ইতিহাস
+logout-Logout-लोग आउट-প্রস্থান
+preferences-Preferences-पसंद-পছন্দসমূহ
+name-NAME-नाम-নাম
+phoneno-PHONE NO-फोन नंबर-ফোন নম্বর
+healthissues-HEALTH ISSUES-स्वास्थय समस्या-স্বাস্থ্য সমস্যা
+request-REQUEST DONATION-रक्तदान अनुरोध-রক্তদান অনুরোধ
+call-CALL-फ़ोन कॉल-ফোন কল
+defaultblood-Default Blood Type-डिफ़ॉल्ट ब्लड ग्रुप-ডিফল্ট রক্ত ​​বিভাগ
+defaultradius-Default Radius-डिफ़ॉल्ट दूरी-ডিফল্ট দূরত্ব
+update-UPDATE-अप्डेट-অপ্ডেট
+search-SEARCH-खोजे-খুজুন
+my details-My Details-मेरा विवरण-আমার বিবরণী
+donation history-Donation History-दान इतिहास-অনুদান ইতিহাস
+update location-Update Location-अप्डेट लोकेशन-আপডেট অবস্থান
+blood type-Blood Type-रक्त प्रकार-রক্তের গ্রুপ
+donation-Donation-रक्त दान-রক্তদান
+address-Address-पता-ঠিকানা
+contact-Contact-कान्टैक्ट-যোগাযোগ
+date of birth-Date of Birth-जन्म की तारीख-জন্ম তারিখ
+edit-Edit-एडिट-এডিট
+accepted-Accepted-स्वीकार्य-গৃহীত
+received-Received-प्राप्त-প্রাপ্ত
+read review-Read Review-रीव्यू पढ़ें-রীব্যূ পড়ুন
+write review-Write Review-रीव्यू लिखें-রীব্যূ লিখুন
+direction-Direction-दिशा-ডিরেক্শন
+reject-Reject-रिजेक्ट-বাতিল
+accept-ACCEPT-तैयार-রাজি
+please wait-Please Wait-कृपया प्रतीक्षा करे-দয়া করে অপেক্ষা করুন
+fetching appointments-Fetching Appointments-कृपया प्रतीक्षा करे-দয়া করে অপেক্ষা করুন
+close review-Close Review-क्लोज रिव्यु-ক্লোসে রিভিউ
+processing-Processing-कृपया प्रतीक्षा करे-দয়া করে অপেক্ষা করুন
+enter review-Enter Review-रिव्यु लिखे-রিভিউ লিখুন
+review submitted-Review Submitted-रिव्यु जमा किआ गया है-রিভিউ জমা দেওয়া হয়েছেে
+approve-APPROVE-मंजूर-অনুমোদন করুন
+appointment approved-Appointment Approved-अपॉइंटमेंट मंजूर किया गया है-এপয়েন্টমেন্ট মনজুর করা হলো
+choose language-Choose Language-भासा पसंद करे-ভাষা পছন্দ করুন
+notification sent-Notification Sent-अनुरोध किया गया है-অনুরোধ পাঠানো হয়েছে
+sent appointments-Sent Appointments-भेजे हुऐ नियुक्तियों-পাঠানো অ্যাপয়েন্টমেন্ট
+accepted appointments-Accepted Appointments-स्वीकृत नियुक्तियों-গৃহীত অ্যাপয়েন্টমেন্ট
+approved appointments-Approved Appointments-अनुमोदित नियुक्तियों-অনুমোদিত অ্যাপয়েন্টমেন্ট
+received appointments-Received Appointments-प्राप्त नियुक्ति-পাওয়া অ্যাপয়েন্টমেন্ট

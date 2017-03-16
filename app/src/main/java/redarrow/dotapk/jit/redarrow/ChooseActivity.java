@@ -7,14 +7,14 @@ import android.util.Log;
 import android.view.View;
 
 public class ChooseActivity extends AppCompatActivity {
-    String name,email,contact,token;
+    String name,email,token;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose);
         name=getIntent().getStringExtra("name");
         email=getIntent().getStringExtra("email");
-        contact=getIntent().getStringExtra("number");
+
         token=getIntent().getStringExtra("token");
 
         Log.d("Choose",name+email);
@@ -25,7 +25,7 @@ public class ChooseActivity extends AppCompatActivity {
         Intent intent=new Intent(this,DonorInfoActivity.class);
         intent.putExtra("name", name);
         intent.putExtra("email",email);
-        intent.putExtra("contact",contact);
+
         intent.putExtra("token",token);
         startActivity(intent);
         finish();
@@ -35,7 +35,6 @@ public class ChooseActivity extends AppCompatActivity {
         Intent intent=new Intent(this,HospitalInfoActivity.class);
         intent.putExtra("name",name);
         intent.putExtra("email",email);
-        intent.putExtra("contact",contact);
         intent.putExtra("token",token);
         startActivity(intent);
         finish();

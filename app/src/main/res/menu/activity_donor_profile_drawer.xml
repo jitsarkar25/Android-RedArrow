@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/editdetailsdonor"
+            android:icon="@drawable/finddonoricon"
+            android:title="Ny Details" />
+        <item
+            android:id="@+id/notificationsdonor"
+            android:icon="@drawable/notificationicon"
+            android:title="Received Notifications" />
+        <item
+            android:id="@+id/updatelocdonor"
+            android:icon="@drawable/reviewicon"
+            android:title="Accepted Notifications" />
+        <item
+            android:id="@+id/donationhistorydonor"
+            android:icon="@drawable/donationhistoryicon"
+            android:title="Donation History" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+
+            <item
+                android:id="@+id/logoutnavDonor"
+                android:icon="@drawable/logouticon"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
